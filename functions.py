@@ -49,5 +49,6 @@ def cube():
     ans=3**3
     print("cube=",ans)
 sqaure()
-'''
+
 cube()
+'''

@@ -54,5 +54,5 @@ print("sub",c)
 c=mul(10,20)
 print("mul",c)
 c=div(10,20)
-'''
 print("div",c)
+'''
