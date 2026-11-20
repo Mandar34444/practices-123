@@ -44,14 +44,53 @@ else:
     print("you are fail")
 '''
 '''
-#Example no 4
-total_bill=float(input("Enter the total bill amount"))
-if total_bill>500:
-    discount=total_bill * 50 / 100
-    final_amount=total_bill-discount
-    print("Discount",discount)
-    print("Final_amount",final_amount)
+price=int(input("Enter your price:" ))
+if price>=300:
+    print(price/2)
 else:
-    print("No discount")
-    print("Final_amount",total_bill)
+    print(price)
 '''
+
+##w.a.p to get the marks from the user & print the
+## greade accorording to the following table.
+'''
+marks=int(input("Enter your marks"))
+if marks>=80:
+    print("A")
+elif marks>=60:
+    print("B")
+elif marks>=40:
+    print("p")
+elif marks<40:
+    print("f")
+'''
+## w.a.p to get the number of electrcity units consummed by user in a months & print
+## the bill according to following
+'''
+units=int(input("Enter your no of units"))
+if units<100:
+    print(units*5)
+elif units>=100:
+    print(units*10)
+elif units>=200:
+    print(units*20)
+elif units>300:
+    print(units*30)
+'''
+##w.a.p to get number from user & print whether the number is prime or not
+'''
+number=int(input("Enter your number"))
+if number:
+    print("prime number")
+else:
+    print("It not a prime number")
+'''
+## w.a.p to get number from user & print it evenly divisible by 5 or not:
+number=int(input("Enter your number"))
+if number%5:
+    print("it is  evenly divisible by 5")
+else:
+    print("not divisible by 5")
+    
+
+    
