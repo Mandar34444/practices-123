@@ -41,7 +41,7 @@ elif salary>50000:
     print(salary*10/100)
 else:
     print(salary*5/100)
-'''   
+'''
 
 
     
