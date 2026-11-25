@@ -306,6 +306,7 @@ while i <= 10:
 #Example no 25
 '''
 i = 1
+j=1
 
 while i <= 10:
     j = 1
